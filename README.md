@@ -1,31 +1,22 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+# Dice App
 
-# Dicee
+# Screenshot
 
-## Our Goal
+<img src="https://github.com/kri-eng/Dicee-App/assets/124129235/3c87ab70-f8c0-4f7b-ac09-a9bab5d23dde" alt="First-App-Screenshot" width=300>
 
-The objective of this tutorial is to introduce you to the core programming concepts that will form the foundation of most of the apps you’ll build in the future. This app will teach you a lot of important programming knowledge, while building a neat dice app.
+# User Interface
 
-## What you will create
+The application conatins a basic User INterfcae craeted with UIKit. It contains multiple UIImages and a UIButton.
 
-We’re going to make a Las Vegas dice app. You can make the die roll at the press of a button or by shaking your phone. With this app in your pocket, you’ll be fully set up to settle any score on the go!
+The images contain:
+- A background Image
+- A Logo Image
+- Two Dice Images
 
+It also contains a UIButton - Roll.
 
-## What you will learn
+# Functionality
 
-* How to clone an existing Xcode project from GitHub.
-* Create an app with behaviour and functionality.
-* Create links between the Interface Builder files and code using IBActions and IBOutlets.
-* Get familiar with the Xcode code editor.
-* * Learn to use comments to annotate code.
-* Understand and use Swift constants and variables.
-* Understand and use collection types such as Swift arrays.
-* Test and debug your app with the Xcode console.
-* Learn about randomisation and how to generate random numbers in Swift.
-
-
-
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
+The Roll Button is the main element of the application which when pressed it changes the two Dice images randomly.
+The code has an IBAction outlet for the Roll button which uses code in order to change the dice images.
 
